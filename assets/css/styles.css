@@ -97,6 +97,25 @@ img {
   height: auto;
 }
 
+.button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+
+.button:hover{
+  background-color: rgb(67, 154, 167);
+  color: #fff;
+}
+
+.button--ghost{
+  background-color: transparent;
+  border: 2px solid var(--first-color);
+  color: var(--first-color);
+}
+
 #adjust__img{
   width: 100px;
 }
@@ -1179,7 +1198,10 @@ body.dark-theme {
   .section__subtitle {
     margin-bottom: 5rem;
   }
-
+  #contact__info__div{
+    /* border: 1px solid red; */
+    margin-top: 5rem;
+  }
   .home__title {
     font-size: var(--biggest-font-size);
   }
